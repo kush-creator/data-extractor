@@ -119,12 +119,19 @@ def get_output_data(pdf, mode, fields, request: gr.Request):
     for field in fields:
         fields_list.append(field['text'])
 
+    if LIMITS[request.username] <= 0:
+        return fields, get_page_counts(request), gr.Warning("⚠️ You have reached your page limit. Please contact Dhaval for more pages.", duration=5)
+
     if mode == 'Cheap':
         text, number = tesseract_ocr(pdf)
     else:
         text, number = analyze_read(pdf)
 
     LIMITS[request.username] -= number
+
+    if LIMITS[request.username] <= 0:
+        LIMITS[request.username] = 0
+
     extracted_response = extract_fields(text, fields_list)
 
     outputs = parse_response_to_fields(extracted_response, fields, threshold=0.7)
@@ -189,16 +196,16 @@ with gr.Blocks(title='MAI Extraction Tool Demo', theme='default', css=custom_css
             prefilled.change(change_prefilled_related, inputs=[prefilled], outputs=[add_btn, pdf, extract, get_base])
 
             with gr.Column(elem_id='field-data'):
-                @gr.render(inputs=[fields, prefilled, mode], triggers=[prefilled.change, mode.change, fields.change])
+                @gr.render(inputs=[fields, prefilled, mode])
                 def draw(current_fields, prefilled, mode):
                     if prefilled == 'Custom':
                         for b in current_fields:
                             bid = b['id']
                             with gr.Row(equal_height=True):
-                                tb=gr.Textbox(value=b['text'], show_label=False, placeholder='Field', key=f'tb-{bid}', scale=5)
+                                tb=gr.Textbox(value=b['text'], show_label=False, placeholder='Field', scale=5)
                                 tb.blur(lambda bl, v, _id=bid: save_text(bl, _id, v), inputs=[fields, tb], outputs=fields)
-                                gr.TextArea(value=b['out'], show_label=False, placeholder='Extracted Data', key=f'out-{bid}', interactive=False, scale=5, lines=1)
-                                gr.Button('❌', key=f'rm-{bid}', min_width=10).click(lambda bl, _id=bid: drop_box(bl, _id), inputs=fields, outputs=fields)
+                                gr.TextArea(value=b['out'], show_label=False, placeholder='Extracted Data', interactive=False, scale=5, lines=1)
+                                gr.Button('❌', min_width=10).click(lambda bl, _id=bid: drop_box(bl, _id), inputs=fields, outputs=fields)
                     else:
                         current_file = 'files_outputs/' + PREFILLED[prefilled].split('/')[1].split('.')[0] + '_' + mode
                         with open(current_file + '.json', 'r') as f:
@@ -206,9 +213,9 @@ with gr.Blocks(title='MAI Extraction Tool Demo', theme='default', css=custom_css
                         for b in data:
                             bid = b['id']
                             with gr.Row(equal_height=True):
-                                tb=gr.Textbox(value=b['text'], show_label=False, placeholder='Field', key=f'tb-{bid}', scale=5, interactive=False)
-                                gr.TextArea(value=b['out'], show_label=False, placeholder='Extracted Data', key=f'out-{bid}', interactive=False, scale=5, lines=1)
-                                gr.Button('❌', key=f'rm-{bid}', min_width=10, interactive=False)
+                                tb=gr.Textbox(value=b['text'], show_label=False, placeholder='Field', scale=5, interactive=False)
+                                gr.TextArea(value=b['out'], show_label=False, placeholder='Extracted Data', interactive=False, scale=5, lines=1)
+                                gr.Button('❌', min_width=10, interactive=False)
 
         extract.click(fn=get_output_data, inputs=[pdf, mode, fields], outputs=[fields, title], show_api=False)
     
@@ -216,4 +223,4 @@ with gr.Blocks(title='MAI Extraction Tool Demo', theme='default', css=custom_css
                 
 
 if __name__ == '__main__':
-    page.launch(favicon_path='OnlyBlue.png', show_api=False, auth=PASSWORDS)
+    page.queue().launch(favicon_path='OnlyBlue.png', show_api=False, auth=PASSWORDS)
