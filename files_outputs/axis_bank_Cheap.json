@@ -1,0 +1,87 @@
+[
+  {
+    "id": 17,
+    "text": "Sr. No.",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 18,
+    "text": "Disputed amount / Loan Amount",
+    "out": "200,000"
+  },
+  {
+    "id": 19,
+    "text": "Full name of Primary borrower",
+    "out": "Kushal Malhotra"
+  },
+  {
+    "id": 20,
+    "text": "Email ID of Primary borrower",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 21,
+    "text": "Mobile number of Primary borrower",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 22,
+    "text": "Complete Address of Primary borrower",
+    "out": "702 Greenwoods Rd, Ghodbunder Road, Thane MH, 400615"
+  },
+  {
+    "id": 23,
+    "text": "Pincode of Primary borrower",
+    "out": "400615"
+  },
+  {
+    "id": 24,
+    "text": "Nature of Loan (Vehicle Loan, Business Loan etc.) / Purpose",
+    "out": "Rupee Term Loan"
+  },
+  {
+    "id": 25,
+    "text": "Agreement Date",
+    "out": "01/06/2024"
+  },
+  {
+    "id": 26,
+    "text": "Arbitration Clause Number",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 27,
+    "text": "Email IDs of Additional borrowers",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 28,
+    "text": "Mobile numbers of Additional borrowers",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 29,
+    "text": "Additional borrowers details",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 30,
+    "text": "Agreement number",
+    "out": "SAN/2024/05/2367"
+  },
+  {
+    "id": 31,
+    "text": "Date of Section 21 notice",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 32,
+    "text": "SOA/FC date",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 33,
+    "text": "Address of the property",
+    "out": "NOT FOUND"
+  }
+]

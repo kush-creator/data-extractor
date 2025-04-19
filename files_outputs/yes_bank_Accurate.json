@@ -1,0 +1,87 @@
+[
+  {
+    "id": 102,
+    "text": "Sr. No.",
+    "out": "1"
+  },
+  {
+    "id": 103,
+    "text": "Disputed amount / Loan Amount",
+    "out": "INR 2,50,00,000"
+  },
+  {
+    "id": 104,
+    "text": "Full name of Primary borrower",
+    "out": "Motors Pvt Ltd"
+  },
+  {
+    "id": 105,
+    "text": "Email ID of Primary borrower",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 106,
+    "text": "Mobile number of Primary borrower",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 107,
+    "text": "Complete Address of Primary borrower",
+    "out": "101, AutoPark, Plot no. 15, Chakan, MIDC, Pune, 410501, MH"
+  },
+  {
+    "id": 108,
+    "text": "Pincode of Primary borrower",
+    "out": "410501"
+  },
+  {
+    "id": 109,
+    "text": "Nature of Loan (Vehicle Loan, Business Loan etc.) / Purpose",
+    "out": "Purchase"
+  },
+  {
+    "id": 110,
+    "text": "Agreement Date",
+    "out": "17/04/2025"
+  },
+  {
+    "id": 111,
+    "text": "Arbitration Clause Number",
+    "out": "5.2"
+  },
+  {
+    "id": 112,
+    "text": "Email IDs of Additional borrowers",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 113,
+    "text": "Mobile numbers of Additional borrowers",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 114,
+    "text": "Additional borrowers details",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 115,
+    "text": "Agreement number",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 116,
+    "text": "Date of Section 21 notice",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 117,
+    "text": "SOA/FC date",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 118,
+    "text": "Address of the property",
+    "out": "Plot No. 101, 28/1, Auto Avenue, Chakan MIDC, Opp. Auto Cluster, Pune, Maharashtra, 410501 and and Plot No. 42, Sector 18, Udyog Vihar, Gurugram, Haryana, 122016"
+  }
+]

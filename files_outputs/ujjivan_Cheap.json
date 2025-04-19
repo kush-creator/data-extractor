@@ -1,0 +1,87 @@
+[
+  {
+    "id": 85,
+    "text": "Sr. No.",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 86,
+    "text": "Disputed amount / Loan Amount",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 87,
+    "text": "Full name of Primary borrower",
+    "out": "John Doe"
+  },
+  {
+    "id": 88,
+    "text": "Email ID of Primary borrower",
+    "out": "john.doe@example.com"
+  },
+  {
+    "id": 89,
+    "text": "Mobile number of Primary borrower",
+    "out": "+91 9876543210"
+  },
+  {
+    "id": 90,
+    "text": "Complete Address of Primary borrower",
+    "out": "123 Dummy Street, Faketown, Maharashtra, India - 400001"
+  },
+  {
+    "id": 91,
+    "text": "Pincode of Primary borrower",
+    "out": "400001"
+  },
+  {
+    "id": 92,
+    "text": "Nature of Loan (Vehicle Loan, Business Loan etc.) / Purpose",
+    "out": "Term Loan / Purchase of Industrial Machinery"
+  },
+  {
+    "id": 93,
+    "text": "Agreement Date",
+    "out": "01/05/2025"
+  },
+  {
+    "id": 94,
+    "text": "Arbitration Clause Number",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 95,
+    "text": "Email IDs of Additional borrowers",
+    "out": "jane.doe@example.com, alex.johnson@example.com"
+  },
+  {
+    "id": 96,
+    "text": "Mobile numbers of Additional borrowers",
+    "out": "+91 9876512345, +91 9876523456"
+  },
+  {
+    "id": 97,
+    "text": "Additional borrowers details",
+    "out": "Jane Doe, Alex Johnson"
+  },
+  {
+    "id": 98,
+    "text": "Agreement number",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 99,
+    "text": "Date of Section 21 notice",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 100,
+    "text": "SOA/FC date",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 101,
+    "text": "Address of the property",
+    "out": "Plot No. 12, Industrial Estate, Faketown"
+  }
+]

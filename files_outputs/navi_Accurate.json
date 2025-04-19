@@ -1,0 +1,87 @@
+[
+  {
+    "id": 34,
+    "text": "Sr. No.",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 35,
+    "text": "Disputed amount / Loan Amount",
+    "out": "₹3000.00"
+  },
+  {
+    "id": 36,
+    "text": "Full name of Primary borrower",
+    "out": "Kishore R"
+  },
+  {
+    "id": 37,
+    "text": "Email ID of Primary borrower",
+    "out": "kishore1993rh@gmail.com"
+  },
+  {
+    "id": 38,
+    "text": "Mobile number of Primary borrower",
+    "out": "9066330021"
+  },
+  {
+    "id": 39,
+    "text": "Complete Address of Primary borrower",
+    "out": "275,Hennur Gundu Thopu HBR Layout Bengaluru Karnataka - 560043"
+  },
+  {
+    "id": 40,
+    "text": "Pincode of Primary borrower",
+    "out": "560043"
+  },
+  {
+    "id": 41,
+    "text": "Nature of Loan (Vehicle Loan, Business Loan etc.) / Purpose",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 42,
+    "text": "Agreement Date",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 43,
+    "text": "Arbitration Clause Number",
+    "out": "9.2"
+  },
+  {
+    "id": 44,
+    "text": "Email IDs of Additional borrowers",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 45,
+    "text": "Mobile numbers of Additional borrowers",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 46,
+    "text": "Additional borrowers details",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 47,
+    "text": "Agreement number",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 48,
+    "text": "Date of Section 21 notice",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 49,
+    "text": "SOA/FC date",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 50,
+    "text": "Address of the property",
+    "out": "NOT FOUND"
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": 153,
+    "text": "Sr. No.",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 154,
+    "text": "Disputed amount / Loan Amount",
+    "out": "2,50,09,000"
+  },
+  {
+    "id": 155,
+    "text": "Full name of Primary borrower",
+    "out": "Motors City Ltd"
+  },
+  {
+    "id": 156,
+    "text": "Email ID of Primary borrower",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 157,
+    "text": "Mobile number of Primary borrower",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 158,
+    "text": "Complete Address of Primary borrower",
+    "out": "AutofaxK, Plot no.15, Wako, MIDC Hinjewadi, Pune"
+  },
+  {
+    "id": 159,
+    "text": "Pincode of Primary borrower",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 160,
+    "text": "Nature of Loan (Vehicle Loan, Business Loan etc.) / Purpose",
+    "out": "Purchase"
+  },
+  {
+    "id": 161,
+    "text": "Agreement Date",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 162,
+    "text": "Arbitration Clause Number",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 163,
+    "text": "Email IDs of Additional borrowers",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 164,
+    "text": "Mobile numbers of Additional borrowers",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 165,
+    "text": "Additional borrowers details",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 166,
+    "text": "Agreement number",
+    "out": "FLRIOF/14"
+  },
+  {
+    "id": 167,
+    "text": "Date of Section 21 notice",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 168,
+    "text": "SOA/FC date",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 169,
+    "text": "Address of the property",
+    "out": "Plot No. Bt/17 or Flat no. Building No/Survey No. VEALL01, Location Hinjewadi, Pune District"
+  }
+]

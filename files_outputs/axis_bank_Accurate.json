@@ -1,0 +1,87 @@
+[
+  {
+    "id": 170,
+    "text": "Sr. No.",
+    "out": "1"
+  },
+  {
+    "id": 18,
+    "text": "Disputed amount / Loan Amount",
+    "out": "Rs. 2,00,000"
+  },
+  {
+    "id": 172,
+    "text": "Full name of Primary borrower",
+    "out": "Kushal Malhotra"
+  },
+  {
+    "id": 173,
+    "text": "Email ID of Primary borrower",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 174,
+    "text": "Mobile number of Primary borrower",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 175,
+    "text": "Complete Address of Primary borrower",
+    "out": "702 Greenwoods Residency, Ghodbunder Road, Thane, MH, 400615"
+  },
+  {
+    "id": 176,
+    "text": "Pincode of Primary borrower",
+    "out": "400615"
+  },
+  {
+    "id": 177,
+    "text": "Nature of Loan (Vehicle Loan, Business Loan etc.) / Purpose",
+    "out": "Rupee Term Loan"
+  },
+  {
+    "id": 178,
+    "text": "Agreement Date",
+    "out": "01/06/2024"
+  },
+  {
+    "id": 179,
+    "text": "Arbitration Clause Number",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 180,
+    "text": "Email IDs of Additional borrowers",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 181,
+    "text": "Mobile numbers of Additional borrowers",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 182,
+    "text": "Additional borrowers details",
+    "out": "Ramesh Malhotra"
+  },
+  {
+    "id": 183,
+    "text": "Agreement number",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 184,
+    "text": "Date of Section 21 notice",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 185,
+    "text": "SOA/FC date",
+    "out": "NOT FOUND"
+  },
+  {
+    "id": 186,
+    "text": "Address of the property",
+    "out": "NOT FOUND"
+  }
+]
